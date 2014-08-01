@@ -1,0 +1,87 @@
+body {
+	background: #313145;
+}
+
+#demo {
+	width: 875px; margin: 250px auto;
+}
+
+/*Step 1*/
+nav {
+	list-style-type:none;
+	overflow:hidden;
+	position:relative;
+}
+
+nav ul li {
+	list-style-type:none;
+	float:left;
+	margin:0 20px 0 0;
+}
+
+/*Step2*/
+nav ul li a {
+	display:block;
+	width:120px;
+	height:120px;
+}
+
+nav ul li:nth-child(1) a {
+	background-image:url(shop.png);
+	background-size: 64px 64px;
+	background-repeat:no-repeat;
+	background-color:#5bb2fc;
+	background-position:28px 28px;
+}
+
+nav ul li:nth-child(2) a {
+	background-image:url(user.png);
+	background-size: 64px 64px;
+	background-repeat:no-repeat;
+	background-color:#58ebd3;
+	background-position:28px 28px;
+}
+
+nav ul li:nth-child(3) a {
+	background-image:url(photo.png);
+	background-size: 64px 64px;
+	background-repeat:no-repeat;
+	background-color:#ffa659;
+	background-position:28px 28px;
+}
+
+nav ul li:nth-child(4) a {
+	background-image:url(bubble.png);
+	background-size: 64px 64px;
+	background-repeat:no-repeat;
+	background-color:#ff7a85;
+	background-position:28px 28px;
+}
+
+/*Step 3*/
+nav ul li a span {
+	font:45px "Dosis", sans-serif;
+	text-transform:uppercase;
+	position:absolute;
+	left:600px;
+	top:29px;
+	display:none;
+}
+
+/*Step 4*/
+nav ul li a:hover span {
+	display:block;
+}
+
+nav ul li:nth-child(1) a span {
+color: #5bb2fc;
+}
+nav ul li:nth-child(2) a span {
+color: #58ebd3;
+}
+nav ul li:nth-child(3) a span {
+color: #ffa659;
+}
+nav ul li:nth-child(4) a span {
+color: #ff7a85;
+}
